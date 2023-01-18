@@ -4,20 +4,20 @@ Octohooks makes sending webhooks easy and reliable by offering webhook sending a
 
 ## Table of Contents
 
-1. [Introduction](/docs/introduction/INTRODUCTION.md)
-   - [Setup](/docs/introduction/SETUP.md)
-   - [Quickstart](/docs/introduction/QUICKSTART.md)
-   - [Overview](/docs/introduction/OVERVIEW.md)
+1. [Introduction](/introduction/INTRODUCTION.md)
+   - [Setup](/introduction/SETUP.md)
+   - [Quickstart](/introduction/QUICKSTART.md)
+   - [Overview](/introduction/OVERVIEW.md)
 2. Basics
-   - [Event Types](/docs/basics/EVENT_TYPES.md)
-   - [API Keys](/docs/basics/API_KEYS.md)
+   - [Event Types](/basics/EVENT_TYPES.md)
+   - [API Keys](/basics/API_KEYS.md)
 3. Advanced
-   - [Idempotency](/docs/advanced/IDEMPOTENCY.md)
-   - [Channels](/docs/advanced/CHANNELS.md)
-   - [Retry Schedule](/docs/advanced/RETRY_SCHEDULE.md)
-   - [Payload Retention](/docs/advanced/PAYLOAD_RETENTION.md)
-   - [Webhook Security](/docs/advanced/WEBHOOK_SECURITY.md)
-4. [API Documentation](/docs/API_DOCUMENTATION.md)
+   - [Idempotency](/advanced/IDEMPOTENCY.md)
+   - [Channels](/advanced/CHANNELS.md)
+   - [Retry Schedule](/advanced/RETRY_SCHEDULE.md)
+   - [Payload Retention](/advanced/PAYLOAD_RETENTION.md)
+   - [Webhook Security](/advanced/WEBHOOK_SECURITY.md)
+4. [API Documentation](/API_DOCUMENTATION.md)
 
 ## Webhooks are harder than they seem
 
