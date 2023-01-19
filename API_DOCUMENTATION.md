@@ -291,6 +291,7 @@ POST https://api.octohooks.com/api/v1/applications/{application_id}/endpoints
 
 ```json
 {
+  "channels": [],
   "eventTypes": ["user.created"],
   "name": "My Endpoint",
   "uid": "my-endpoint",
@@ -467,6 +468,7 @@ POST https://api.octohooks.com/api/v1/applications/{application_id}/messages
 
 ```json
 {
+  "channels": [],
   "eventType": "user.created",
   "payload": {
     "created_at": "2022-11-16T10:47:47.207Z",
