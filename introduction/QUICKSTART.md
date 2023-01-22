@@ -31,7 +31,7 @@ import { Octohooks } from "octohooks";
 
 const octohooks = new Octohooks("AUTH_TOKEN");
 
-const app = await octohooks.application.create({
+const application = await octohooks.application.create({
   name: "Application name",
   uid: "application-name",
 });
