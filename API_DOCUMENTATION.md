@@ -80,6 +80,13 @@ GET https://api.octohooks.com/api/v1/applications
 | ------------- | ---------------------------------- |
 | Authorization | **Required**. Bearer ${AUTH_TOKEN} |
 
+#### Query Parameters
+
+| Name           | Description                               |
+| -------------- | ----------------------------------------- |
+| page           | **Optional**. The page number (default: 1)|
+| page           | **Optional**. The page size (default: 10) |
+
 #### Response
 
 ```json
@@ -253,23 +260,41 @@ GET https://api.octohooks.com/api/v1/applications/{application_id}/endpoints
 | ------------- | ---------------------------------- |
 | Authorization | **Required**. Bearer ${AUTH_TOKEN} |
 
+#### Path Parameters
+
+| Name           | Description                               |
+| -------------- | ----------------------------------------- |
+| application_id | **Required**. The application's ID or UID |
+
+#### Query Parameters
+
+| Name           | Description                               |
+| -------------- | ----------------------------------------- |
+| page           | **Optional**. The page number (default: 1)|
+| page           | **Optional**. The page size (default: 10) |
+
 #### Response
 
 ```json
-[
-  {
-    "channels": [],
-    "enabled": true,
-    "eventTypes": ["user.created"],
-    "name": "My Endpoint",
-    "secrets": [],
-    "uid": "my-endpoint",
-    "url": "https://webhook.site/130cbb57-09c5-492f-bbc3-2d532bddca9d",
-    "id": "ada4692e-96a4-45c9-8a58-2d389f95454a",
-    "created": 1668595667207,
-    "updated": 1668595667207
+{
+  "data": [
+    {
+      "channels": [],
+      "enabled": true,
+      "eventTypes": ["user.created"],
+      "name": "My Endpoint",
+      "secrets": [],
+      "uid": "my-endpoint",
+      "url": "https://webhook.site/130cbb57-09c5-492f-bbc3-2d532bddca9d",
+      "id": "ada4692e-96a4-45c9-8a58-2d389f95454a",
+      "created": 1668595667207,
+      "updated": 1668595667207
+    }
+  ],
+  "meta": {
+    "count": 100
   }
-]
+}
 ```
 
 ### Create Endpoint
