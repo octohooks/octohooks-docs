@@ -23,13 +23,38 @@ import { Octohooks } from "octohooks";
 
 const octohooks = new Octohooks("AUTH_TOKEN");
 
-const application = await octohooks.application.create({ name: "Application name", uid: "application-name" });
+const message = await octohooks.message.create(application.id, {
+    channels: [],
+    eventType: 'user.created',
+    payload: {
+        email: 'foo.bar@example.com',
+    },
+});
 ```
 
 ## C#
 
-TODO
+Install the libraries
 
-## Python
+```bash
+dotnet add package Octohooks.net
+# or
+NuGet\Install-Package Octohooks.net
+```
 
-TODO
+```csharp
+using Octohooks.net;
+using Octohooks.net.Domain.Entities;
+
+var octohooksClient = new OctohooksClient("AUTH_TOKEN");
+
+var message = await octohooksClient.Message.Create("my-application", new Message()
+{
+    Channels = new string[0],
+    EventType = "user.created",
+    Payload = new 
+    {
+        Email = "foo.bar@example.com"
+    }
+});
+```
