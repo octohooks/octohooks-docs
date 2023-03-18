@@ -21,3 +21,5 @@ Hooli's airtime top-up solution through API integration and Octohooks provided G
 Here is the interface built by GWB, [https://demo.octohooks.com](https://demo.octohooks.com).
 
 [https://webhook.site/#!/77b2ae27-f26c-43b2-852c-451f9a458653](https://webhook.site/#!/77b2ae27-f26c-43b2-852c-451f9a458653)
+
+![](../images/case-study-hooli.png)
