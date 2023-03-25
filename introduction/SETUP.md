@@ -8,7 +8,7 @@ When working with Octohooks you can either use our REST API directly, or using a
 
 ## JavaScript/TypeScript
 
-Install the libraries
+Install the library
 
 ```bash
 npm install octohooks
@@ -29,12 +29,13 @@ const message = await octohooks.message.create(application.id, {
     payload: {
         email: 'foo.bar@example.com',
     },
+    uid = '3a1e7928-8498-41b5-beaa-7f6d89ed0133'
 });
 ```
 
 ## C#
 
-Install the libraries
+Install the library
 
 ```bash
 dotnet add package Octohooks.net
@@ -55,6 +56,7 @@ var message = await octohooksClient.Message.Create("my-application", new Message
     Payload = new 
     {
         Email = "foo.bar@example.com"
-    }
+    },
+    Uid = Guid.NewGuid().ToString(),
 });
 ```

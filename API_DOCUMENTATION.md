@@ -317,7 +317,9 @@ POST https://api.octohooks.com/api/v1/applications/{application_id}/endpoints
 ```json
 {
   "channels": [],
+  "enabled": true,
   "eventTypes": ["user.created"],
+  "headers": {},
   "name": "My Endpoint",
   "uid": "my-endpoint",
   "url": "https://webhook.site/130cbb57-09c5-492f-bbc3-2d532bddca9d"
@@ -331,6 +333,7 @@ POST https://api.octohooks.com/api/v1/applications/{application_id}/endpoints
   "channels": [],
   "enabled": true,
   "eventTypes": ["user.created"],
+  "headers": {},
   "name": "My Endpoint",
   "secrets": [],
   "uid": "my-endpoint",
@@ -369,6 +372,7 @@ GET https://api.octohooks.com/api/v1/applications/{application_id}/endpoints/{en
   "channels": [],
   "enabled": true,
   "eventTypes": ["user.created"],
+  "headers": {},
   "name": "My Endpoint",
   "secrets": [],
   "uid": "my-endpoint",
@@ -407,6 +411,7 @@ PUT https://api.octohooks.com/api/v1/applications/{application_id}/endpoints/{en
   "channels": [],
   "enabled": true,
   "eventTypes": ["user.created"],
+  "headers": {},
   "name": "My Endpoint",
   "secrets": [],
   "url": "https://webhook.site/130cbb57-09c5-492f-bbc3-2d532bddca9d"
@@ -458,6 +463,7 @@ DELETE https://api.octohooks.com/api/v1/applications/{application_id}/endpoints/
   "channels": [],
   "enabled": true,
   "eventTypes": ["user.created"],
+  "headers": {},
   "name": "My Endpoint",
   "secrets": [],
   "uid": "my-endpoint",
@@ -495,6 +501,7 @@ POST https://api.octohooks.com/api/v1/applications/{application_id}/messages
 {
   "channels": [],
   "eventType": "user.created",
+  "uid": "my-message",
   "payload": {
     "created_at": "2022-11-16T10:47:47.207Z",
     "email": "john.smith@example.com",

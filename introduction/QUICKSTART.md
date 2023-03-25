@@ -53,6 +53,7 @@ import { Octohooks } from "octohooks";
 const octohooks = new Octohooks("AUTH_TOKEN");
 
 await octohooks.message.create("app_teexfqn3o09y1fnmm631r0fo8uq", {
+  channels: [],
   eventType: "customer.created",
   uid: "774fa91a-510b-4a35-9799-6c233f6af790",
   payload: {
@@ -91,8 +92,12 @@ import { Octohooks } from "octohooks";
 const octohooks = new Octohooks("AUTH_TOKEN");
 
 await octohooks.endpoint.create("app_teexfqn3o09y1fnmm631r0fo8uq", {
+  channels: [],
+  enabled: true,
   eventTypes: ["customer.created"],
+  headers: {},
   name: "My main endpoint",
+  uid: 'my-main-endpoint',
   url: "https://api.example.com/octohooks-webhooks",
 });
 ```
