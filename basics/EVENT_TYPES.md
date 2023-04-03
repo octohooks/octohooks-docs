@@ -13,3 +13,5 @@ Event types have a pattern defined a `^[a-zA-Z0-9\\-_.]+$`, meaning it can conta
 * A through Z (uppercase or lowercase)
 * 0 through 9
 * Special characters: `-`, `_`, `.`
+
+<p align="right"><a href="/basics/API_KEYS.md">Go to API Keys</a></p>

@@ -8,4 +8,4 @@ Octohooks' idempotency works by saving the resulting status code and body of the
 
 Please note that idempotency is only supported for `POST` requests.
 
-<div style="text-align: right"><a href="/advanced/CHANNELS.md">Go to Channels</a></div>
+<p align="right"><a href="/advanced/CHANNELS.md">Go to Channels</a></p>

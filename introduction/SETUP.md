@@ -61,4 +61,4 @@ var message = await octohooksClient.Message.Create("my-application", new Message
 });
 ```
 
-<div style="text-align: right"><a href="/introduction/QUICKSTART.md">Go to Quickstart</a></div>
+<p align="right"><a href="/introduction/QUICKSTART.md">Go to Quickstart</a></p>

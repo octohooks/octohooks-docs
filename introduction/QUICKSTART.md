@@ -108,4 +108,4 @@ You can use Octohooks in a completely stateless manner, without having to store 
 
 For more information, please refer to the section about `UID`s in the overview.
 
-<div style="text-align: right"><a href="/introduction/OVERVIEW.md">Go to Overview</a></div>
+<p align="right"><a href="/introduction/OVERVIEW.md">Go to Overview</a></p>
