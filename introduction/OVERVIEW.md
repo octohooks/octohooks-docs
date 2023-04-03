@@ -75,3 +75,5 @@ Event types are identifiers on messages that describe the message being sent and
 Environments are completely isolated Octohooks environments that have their own API keys, data, and settings. You can think of Octohooks environments are completely separate accounts.
 
 You can create as many environments as you want depending on your needs. Most people create one environment for `Production`, one for `Staging` and one for `Development`. Some people create multiple `Production` environments based on geographical regions e.g. `Production EU` and `Production US`.
+
+<p align="right"><a href="/basics/EVENT_TYPES.md">Go to Event Types</a></p>

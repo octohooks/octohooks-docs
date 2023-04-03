@@ -19,3 +19,5 @@ Your secret API key can be used to make any API call on behalf of your account. 
 If an API key is compromised, rotate the key in the Dashboard to block it and generate a new one.
 
 When you rotate an API key, the old key will be blocked immediately, so any systems currently using that key will experience downtime. This behavior will change in a future release.
+
+<p align="right"><a href="/advanced/IDEMPOTENCY.md">Go to Idempotency</a></p>
