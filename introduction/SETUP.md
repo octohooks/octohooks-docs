@@ -60,3 +60,5 @@ var message = await octohooksClient.Message.Create("my-application", new Message
     Uid = Guid.NewGuid().ToString(),
 });
 ```
+
+<div style="text-align: right"><a href="/introduction/QUICKSTART.md">Go to Quickstart</a></div>

@@ -29,3 +29,5 @@ Octohooks will send (or not send) to endpoints based on the following conditions
 * Endpoint has no channels set: this is a catch-all, all messages are sent to to it, regardless of whether the message had channels set.
 * Both endpoint and message have channels set: if there's a shared channel between them, the message will be sent to the endpoint.
 * Endpoint has channels set and message has no channels set: the message will not be sent to the endpoint.
+
+<div style="text-align: right"><a href="/advanced/RETRY_SCHEDULE.md">Go to Retry Schedules</a></div>

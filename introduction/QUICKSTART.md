@@ -107,3 +107,5 @@ await octohooks.endpoint.create("app_teexfqn3o09y1fnmm631r0fo8uq", {
 You can use Octohooks in a completely stateless manner, without having to store any Octohooks identifiers (or anything else) in your own database; you can do it by utilizing `UID`s. If you set a `UID` on an application, endpoint, or any other entity, you can use this `UID` interchangeably with its `ID` anywhere in the API.
 
 For more information, please refer to the section about `UID`s in the overview.
+
+<div style="text-align: right"><a href="/introduction/OVERVIEW.md">Go to Overview</a></div>

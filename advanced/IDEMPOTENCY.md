@@ -7,3 +7,5 @@ To perform an idempotent request, pass the idempotency key in the `Idempotency-K
 Octohooks' idempotency works by saving the resulting status code and body of the first request made for any given idempotency key for any successful request. Subsequent requests with the same key return the same result.
 
 Please note that idempotency is only supported for `POST` requests.
+
+<div style="text-align: right"><a href="/advanced/CHANNELS.md">Go to Channels</a></div>

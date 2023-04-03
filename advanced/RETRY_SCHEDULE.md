@@ -22,3 +22,5 @@ For example, an attempt that fails three times before eventually succeeding will
 ## Failed delivery handling
 
 After the conclusion of the above attempts the message will be marked as Failed for this endpoint, and you will get a webhook of type `message.attempt.exhausted` notifying you of this error.
+
+<div style="text-align: right"><a href="/advanced/PAYLOAD_RETENTION.md">Go to Payload Retention</a></div>
