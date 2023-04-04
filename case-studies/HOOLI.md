@@ -34,7 +34,7 @@ builder.Services
 * Assign the `OctohooksClient` field in the constructor of your controller `class`.
 * Use the `OctohooksClient` instance to make a request to [Octohooks](https://octohooks.com) in your controller method(s).
 
-````csharp
+```csharp
 // 1. Add the required using statements
 using Octohooks.net;
 using Octohooks.net.Requests;
